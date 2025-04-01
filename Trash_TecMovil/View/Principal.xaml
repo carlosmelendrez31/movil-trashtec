@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trash_TecMovil.View.Principal"
+             Title="Principal">
+    <VerticalStackLayout Padding="20">
+
+        <!-- Botón para agregar un bote -->
+        <Button Text="Añadir Bote"
+                Command="{Binding AgregarBoteCommand}"
+                BackgroundColor="GreenYellow"
+                TextColor="Black"
+                FontSize="18"
+                CornerRadius="10"
+                WidthRequest="180"
+                HorizontalOptions="Center"
+                Padding="10"/>
+
+        <!-- Lista de botes con semáforo de colores -->
+        <CollectionView ItemsSource="{Binding Botes}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="10">
+                        <Frame.Triggers>
+                            <!-- Definir colores según el nivel de llenado -->
+                            <DataTrigger TargetType="Frame" Binding="{Binding Llenado}" Value="50">
+                                <Setter Property="BackgroundColor" Value="Green"/>
+                            </DataTrigger>
+                            <DataTrigger TargetType="Frame" Binding="{Binding Llenado}" Value="80">
+                                <Setter Property="BackgroundColor" Value="Yellow"/>
+                            </DataTrigger>
+                            <DataTrigger TargetType="Frame" Binding="{Binding Llenado}" Value="100">
+                                <Setter Property="BackgroundColor" Value="Red"/>
+                            </DataTrigger>
+                        </Frame.Triggers>
+
+                        <VerticalStackLayout>
+                            <Label Text="{Binding Nombre}" FontSize="18" TextColor="Black"/>
+                            <Label Text="{Binding Tipo}" FontSize="16" TextColor="Gray"/>
+                            <Label Text="{Binding Llenado}" FontSize="16" TextColor="Black"/>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

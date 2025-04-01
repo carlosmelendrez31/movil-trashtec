@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trash_TecMovil.View.Login"
+             Title="Login">
+    <VerticalStackLayout Padding="30" Spacing="20">
+        <Label Text="TrashTec"
+       FontSize="45"
+       FontAttributes="Bold"
+       TextColor="Blue"
+       HorizontalOptions="Center" />
+
+        <VerticalStackLayout HorizontalOptions="Center" Spacing="0">
+            <Label Text="Bienvenido a TrashTec!"
+           FontSize="30"
+           TextColor="Blue"
+           HorizontalOptions="Center" />
+        </VerticalStackLayout>
+
+        <Label Text="Email"
+       FontSize="14"
+       TextColor="Blue" />
+        <Frame BackgroundColor="#F3F4F6"
+       CornerRadius="10"
+       BorderColor="#D1D5DB"
+       Padding="5"
+       HeightRequest="50">
+            <Entry Placeholder="example@email.com"
+           TextColor="Black"
+           Keyboard="Email"
+           Text="{Binding Usuario.Email}" />
+        </Frame>
+
+        <Label Text="Password"
+       FontSize="14"
+       TextColor="Blue" />
+        <Frame BackgroundColor="#F3F4F6"
+       CornerRadius="10"
+       BorderColor="#D1D5DB"
+       Padding="0"
+       HeightRequest="50"
+       Margin="0,0,0,20">
+            <HorizontalStackLayout Spacing="70">
+                <Entry Placeholder="********"
+               TextColor="Black"
+               IsPassword="True"
+               HorizontalOptions="FillAndExpand"
+               Margin="7,0"
+               Text="{Binding Usuario.Password}" />
+            </HorizontalStackLayout>
+        </Frame>
+
+        <Button Text="Entrar"
+        BackgroundColor="Blue"
+        TextColor="White"
+        HeightRequest="50"
+        CornerRadius="10"
+        FontAttributes="Bold"
+        Clicked="Button_Clicked"
+        Command="{Binding EntrarCommand}" />
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="¿Olvidaste tu contraseña? "
+        TextColor="Gray"
+        FontSize="12" />
+            <Label Text="Recuperar"
+        TextColor="Blue"
+        FontSize="12"
+        FontAttributes="Bold">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding RecuperarCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
