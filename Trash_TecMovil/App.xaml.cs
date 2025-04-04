@@ -1,4 +1,6 @@
-﻿namespace Trash_TecMovil
+﻿using Trash_TecMovil.View;
+
+namespace Trash_TecMovil
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new Login();
 
         }
     }

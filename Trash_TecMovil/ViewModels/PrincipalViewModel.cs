@@ -26,34 +26,33 @@ public partial class PrincipalViewModel : ObservableObject
 
     private async Task AgregarBoteAsync()
     {
-        // Conectar a Bluetooth y obtener el llenado
         string? llenadoStr = await _bluetoothService.ObtenerLlenadoAsync();
         if (string.IsNullOrEmpty(llenadoStr)) return;
 
-        int llenado = int.Parse(llenadoStr);
-
-        // Solicitar datos del usuario
-        string nombre = await App.Current.MainPage.DisplayPromptAsync("Nuevo Bote", "Ingrese el nombre del bote:");
-        string tipo = await App.Current.MainPage.DisplayPromptAsync("Nuevo Bote", "Ingrese el tipo de bote:");
-
-        if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(tipo)) return;
-
-        // Enviar los datos a la API
-        var nuevoBote = new BoteModel
+        if (!int.TryParse(llenadoStr, out int llenado))
         {
-            Nombre = nombre,
-            Tipo = tipo,
-            Llenado = llenado
-        };
-
-        bool exito = await _apiService.RegistrarBoteAsync(nuevoBote);
-        if (exito)
-        {
-            Botes.Add(nuevoBote);
+            await App.Current.MainPage.DisplayAlert("Error", "El valor de llenado no es válido.", "OK");
+            return;
         }
-        else
+
+        string nombre = await App.Current.MainPage.DisplayPromptAsync("Nuevo Bote", "Ingrese el nombre:");
+        if (string.IsNullOrEmpty(nombre)) return;
+
+        string tipo = await App.Current.MainPage.DisplayPromptAsync("Tipo de Bote", "Ingrese el tipo:");
+        if (string.IsNullOrEmpty(tipo)) return;
+
+        var bote = new BoteModel { Nombre = nombre, Tipo = tipo, Llenado = llenado };
+        Botes.Add(bote);
+
+        // ?? Envía el bote a la API
+        bool resultado = await _apiService.AgregarBoteAsync(bote);
+
+        if (!resultado)
         {
-            await App.Current.MainPage.DisplayAlert("Error", "No se pudo registrar el bote.", "OK");
+            await App.Current.MainPage.DisplayAlert("Error", "No se pudo agregar el bote en la API.", "OK");
+            Botes.Remove(bote); // Si falla, lo eliminamos de la colección local
         }
     }
+
 }
+

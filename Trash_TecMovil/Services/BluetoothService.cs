@@ -1,59 +1,75 @@
-﻿using System.Text;
+﻿using System;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Plugin.BLE;
 using Plugin.BLE.Abstractions.Contracts;
-using Plugin.BLE.Abstractions.Exceptions;
-using System.Linq;
 
-namespace Trash_TecMovil.Services
+public class BluetoothService
 {
-    public class BluetoothService
+    private readonly IAdapter _adapter;
+    private IDevice _device;
+    private ICharacteristic _characteristic;
+
+    public BluetoothService()
     {
-        private readonly IAdapter _adapter;
-        private IDevice? _device;
+        _adapter = CrossBluetoothLE.Current.Adapter;
+    }
 
-        public BluetoothService()
+    public async Task<bool> ConectarAsync(string nombreDispositivo)
+    {
+        try
         {
-            _adapter = CrossBluetoothLE.Current.Adapter;
+            // 🔎 Escanea dispositivos Bluetooth
+            _adapter.ScanTimeout = 5000; // 5 segundos de escaneo
+            await _adapter.StartScanningForDevicesAsync();
+
+            // 🔍 Busca el dispositivo por nombre
+            _device = _adapter.DiscoveredDevices.FirstOrDefault(d => d.Name == nombreDispositivo);
+
+            if (_device == null)
+            {
+                Console.WriteLine("❌ Dispositivo no encontrado.");
+                return false;
+            }
+
+            // 🔗 Conectar al dispositivo
+            await _adapter.ConnectToDeviceAsync(_device);
+
+            // 📡 Obtener servicios y características
+            var services = await _device.GetServicesAsync();
+            var service = services.FirstOrDefault();
+
+            if (service == null)
+            {
+                Console.WriteLine("❌ No se encontraron servicios.");
+                return false;
+            }
+
+            _characteristic = (await service.GetCharacteristicsAsync()).FirstOrDefault();
+            return _characteristic != null;
         }
-
-        public async Task<string?> ObtenerLlenadoAsync()
+        catch (Exception ex)
         {
-            try
-            {
-                // Escanear dispositivos Bluetooth cercanos
-                _adapter.ScanTimeout = 5000;
-                await _adapter.StartScanningForDevicesAsync();
+            Console.WriteLine($"❌ Error de conexión: {ex.Message}");
+            return false;
+        }
+    }
 
-                _device = _adapter.ConnectedDevices.FirstOrDefault(d => d.Name == "BoteESP32");
+    public async Task<string?> ObtenerLlenadoAsync()
+    {
+        if (_characteristic == null) return null;
 
-                if (_device == null)
-                {
-                    await App.Current.MainPage.DisplayAlert("Error", "No se encontró el bote.", "OK");
-                    return null;
-                }
+        try
+        {
+            var (bytes, resultCode) = await _characteristic.ReadAsync(); // 👈 Extrae los valores correctamente
 
-                await _adapter.ConnectToDeviceAsync(_device);
-                var service = (await _device.GetServicesAsync()).FirstOrDefault();
-                if (service == null) return null;
-
-                var characteristic = (await service.GetCharacteristicsAsync()).FirstOrDefault();
-                if (characteristic == null) return null;
-
-                // Leer los datos correctamente
-                var (bytes, _) = await characteristic.ReadAsync();
-                return Encoding.UTF8.GetString(bytes);
-            }
-            catch (DeviceConnectionException)
-            {
-                await App.Current.MainPage.DisplayAlert("Error", "No se pudo conectar al bote.", "OK");
-                return null;
-            }
-            catch (Exception ex)
-            {
-                await App.Current.MainPage.DisplayAlert("Error", $"Bluetooth error: {ex.Message}", "OK");
-                return null;
-            }
+            return bytes != null && bytes.Length > 0 ? Encoding.UTF8.GetString(bytes) : null;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"❌ Error al leer datos: {ex.Message}");
+            return null;
         }
     }
 }

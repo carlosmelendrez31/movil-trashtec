@@ -5,11 +5,11 @@ namespace Trash_TecMovil.Models;
 public class Usuario
 {
     [JsonPropertyName("nombreusuario")]
-    public string NombreUsuario { get; set; }
+    public string nombreusuario { get; set; }
 
     [JsonPropertyName("email")]
-    public string Email { get; set; }
+    public string email { get; set; }
 
     [JsonPropertyName("contrasena")]
-    public string Contrasena { get; set; }
+    public string contrasena { get; set; }
 }

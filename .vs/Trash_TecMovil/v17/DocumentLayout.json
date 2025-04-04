@@ -1,72 +1,124 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\",
+  "WorkspaceRootPath": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\view\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\view\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\viewmodels\\recuperarcontrasenaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\viewmodels\\recuperarcontrasenaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\services\\bluetoothservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\services\\bluetoothservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\viewmodels\\principalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\viewmodels\\principalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\models\\usuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\models\\usuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\models\\buscarbote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\models\\buscarbote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\models\\botemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\models\\botemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\models\\bote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\models\\bote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\view\\eliminarbote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\eliminarbote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\view\\editarbotepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\editarbotepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\view\\agregarbotepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\agregarbotepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\viewmodels\\eliminarbote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\viewmodels\\eliminarbote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\viewmodels\\opcionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\viewmodels\\opcionesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\view\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\services\\bluetoothservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\services\\bluetoothservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\view\\agregarbotepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\view\\agregarbotepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\agregarbotepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\view\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\viewmodels\\principalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\viewmodels\\principalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\models\\botemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\models\\botemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\view\\agregarbotepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\agregarbotepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\viewmodels\\editnameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\viewmodels\\editnameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\viewmodels\\editnameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
@@ -75,7 +127,7 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\7.0.0\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\viewmodels\\agregarboteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\viewmodels\\agregarboteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\viewmodels\\agregarboteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -85,16 +137,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\8.0.0\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\models\\bote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\models\\bote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\view\\opciones.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\downloads\\moviltt\\trash_tecmovil\\view\\opciones.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\opciones.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\carlos melendrez\\source\\repos\\trash_tecmovil\\trash_tecmovil\\view\\eliminarbote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\eliminarbote.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Carlos Melendrez\\.nuget\\packages\\microsoft.maui.core\\9.0.50\\buildTransitive\\Microsoft.Maui.Core.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -128,162 +172,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Login.xaml.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\Login.xaml.cs",
-              "RelativeToolTip": "Trash_TecMovil\\View\\Login.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T05:17:38.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\ViewModels\\LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\LoginViewModel.cs",
               "RelativeToolTip": "Trash_TecMovil\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAC8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAjwEIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T05:07:38.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Principal.xaml",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\Principal.xaml",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Principal.xaml",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\Principal.xaml",
-              "RelativeToolTip": "Trash_TecMovil\\View\\Principal.xaml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-01T00:10:03.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BluetoothService.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\Services\\BluetoothService.cs",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\Services\\BluetoothService.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\Services\\BluetoothService.cs",
-              "RelativeToolTip": "Trash_TecMovil\\Services\\BluetoothService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:29:21.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PrincipalViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\ViewModels\\PrincipalViewModel.cs",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\PrincipalViewModel.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\ViewModels\\PrincipalViewModel.cs",
-              "RelativeToolTip": "Trash_TecMovil\\ViewModels\\PrincipalViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:25:01.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AgregarBotePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\AgregarBotePage.xaml.cs",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\AgregarBotePage.xaml.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\AgregarBotePage.xaml.cs",
-              "RelativeToolTip": "Trash_TecMovil\\View\\AgregarBotePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:23:50.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BoteModel.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\Models\\BoteModel.cs",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\Models\\BoteModel.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\Models\\BoteModel.cs",
-              "RelativeToolTip": "Trash_TecMovil\\Models\\BoteModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:23:43.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\MainPage.xaml",
-              "RelativeToolTip": "Trash_TecMovil\\View\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T06:24:03.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Xamarin.Android.Common.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
-              "ViewState": "AgIAAAcKAAAAAAAAAAAcwB0KAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-04-01T00:12:55.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\Login.xaml",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Login.xaml",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\Login.xaml",
-              "RelativeToolTip": "Trash_TecMovil\\View\\Login.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T06:24:09.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApiService.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\Services\\ApiService.cs",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\Services\\ApiService.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\Services\\ApiService.cs",
-              "RelativeToolTip": "Trash_TecMovil\\Services\\ApiService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:28:40.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\MauiProgram.cs",
               "RelativeDocumentMoniker": "Trash_TecMovil\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\MauiProgram.cs",
               "RelativeToolTip": "Trash_TecMovil\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -292,167 +202,89 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AgregarBotePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\AgregarBotePage.xaml",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\AgregarBotePage.xaml",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\AgregarBotePage.xaml",
-              "RelativeToolTip": "Trash_TecMovil\\View\\AgregarBotePage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T06:23:47.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EditNameViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\ViewModels\\EditNameViewModel.cs",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\EditNameViewModel.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\ViewModels\\EditNameViewModel.cs",
-              "RelativeToolTip": "Trash_TecMovil\\ViewModels\\EditNameViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\AppShell.xaml.cs",
+              "RelativeToolTip": "Trash_TecMovil\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAIAAACgDv67s5InwAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:47:32.228Z",
+              "WhenOpened": "2025-04-03T23:28:01.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Xamarin.Android.Resource.Designer.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
-              "ViewState": "AgIAACoAAAAAAAAAAAAcwEAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-03-31T07:13:38.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\App.xaml.cs",
               "RelativeDocumentMoniker": "Trash_TecMovil\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\App.xaml.cs",
               "RelativeToolTip": "Trash_TecMovil\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T06:57:24.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\App.xaml",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\App.xaml",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\App.xaml",
-              "RelativeToolTip": "Trash_TecMovil\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RecuperarContrasenaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\RecuperarContrasenaViewModel.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\RecuperarContrasenaViewModel.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\RecuperarContrasenaViewModel.cs",
+              "RelativeToolTip": "Trash_TecMovil\\ViewModels\\RecuperarContrasenaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:05:58.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\Login.xaml.cs",
+              "RelativeToolTip": "Trash_TecMovil\\View\\Login.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T05:17:38.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\Login.xaml",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Login.xaml",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\Login.xaml",
+              "RelativeToolTip": "Trash_TecMovil\\View\\Login.xaml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T06:57:20.832Z",
+              "WhenOpened": "2025-03-31T06:24:09.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Services\\AuthService.cs",
+              "RelativeToolTip": "Trash_TecMovil\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA8wAgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T08:10:28.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "ReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\ReadMe.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\ReadMe.txt",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\ReadMe.txt",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\ReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-31T07:03:49.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\7.0.0\\ReadMe.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\7.0.0\\ReadMe.txt",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\7.0.0\\ReadMe.txt",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\7.0.0\\ReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-31T07:02:59.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AgregarBoteViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\ViewModels\\AgregarBoteViewModel.cs",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\AgregarBoteViewModel.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\ViewModels\\AgregarBoteViewModel.cs",
-              "RelativeToolTip": "Trash_TecMovil\\ViewModels\\AgregarBoteViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:47:32.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-31T06:41:52.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\8.0.0\\ReadMe.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\8.0.0\\ReadMe.txt",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\8.0.0\\ReadMe.txt",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\8.0.0\\ReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-31T06:36:35.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Bote.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\Models\\Bote.cs",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\Models\\Bote.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\Models\\Bote.cs",
-              "RelativeToolTip": "Trash_TecMovil\\Models\\Bote.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:28:27.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Opciones.xaml",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\Opciones.xaml",
-              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Opciones.xaml",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\Opciones.xaml",
-              "RelativeToolTip": "Trash_TecMovil\\View\\Opciones.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T06:24:07.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "EliminarBOte.xaml",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\EliminarBOte.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\EliminarBOte.xaml",
               "RelativeDocumentMoniker": "Trash_TecMovil\\View\\EliminarBOte.xaml",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash_TecMovil\\Trash_TecMovil\\View\\EliminarBOte.xaml",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\EliminarBOte.xaml",
               "RelativeToolTip": "Trash_TecMovil\\View\\EliminarBOte.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -461,107 +293,435 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Microsoft.Maui.Core.After.targets",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\microsoft.maui.core\\9.0.50\\buildTransitive\\Microsoft.Maui.Core.After.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.core\\9.0.50\\buildTransitive\\Microsoft.Maui.Core.After.targets",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\microsoft.maui.core\\9.0.50\\buildTransitive\\Microsoft.Maui.Core.After.targets",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.core\\9.0.50\\buildTransitive\\Microsoft.Maui.Core.After.targets",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwB0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-03-31T06:21:55.018Z",
+              "DocumentIndex": 7,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\MainPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\MainPageViewModel.cs",
+              "RelativeToolTip": "Trash_TecMovil\\ViewModels\\MainPageViewModel.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAuwG0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:38:40.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "RecuperarContrasena.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\RecuperarContrasena.cs",
-              "RelativeDocumentMoniker": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\RecuperarContrasena.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\RecuperarContrasena.cs",
-              "RelativeToolTip": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\RecuperarContrasena.cs",
+              "DocumentIndex": 13,
+              "Title": "UsuarioLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Models\\UsuarioLogin.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\Models\\UsuarioLogin.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Models\\UsuarioLogin.cs",
+              "RelativeToolTip": "Trash_TecMovil\\Models\\UsuarioLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:37:11.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Services\\ApiService.cs",
+              "RelativeToolTip": "Trash_TecMovil\\Services\\ApiService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwBgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:28:40.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BluetoothService.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Services\\BluetoothService.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\Services\\BluetoothService.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Services\\BluetoothService.cs",
+              "RelativeToolTip": "Trash_TecMovil\\Services\\BluetoothService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:29:21.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditarBotePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\EditarBotePage.xaml",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\EditarBotePage.xaml",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\EditarBotePage.xaml",
+              "RelativeToolTip": "Trash_TecMovil\\View\\EditarBotePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-04T00:05:07.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AgregarBotePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\AgregarBotePage.xaml",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\AgregarBotePage.xaml",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\AgregarBotePage.xaml",
+              "RelativeToolTip": "Trash_TecMovil\\View\\AgregarBotePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T06:23:47.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PrincipalViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\PrincipalViewModel.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\PrincipalViewModel.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\PrincipalViewModel.cs",
+              "RelativeToolTip": "Trash_TecMovil\\ViewModels\\PrincipalViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:25:01.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Buscarbote.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Models\\Buscarbote.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\Models\\Buscarbote.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Models\\Buscarbote.cs",
+              "RelativeToolTip": "Trash_TecMovil\\Models\\Buscarbote.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:20:56.945Z",
+              "WhenOpened": "2025-04-04T07:13:19.582Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Bote.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Models\\Bote.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\Models\\Bote.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Models\\Bote.cs",
+              "RelativeToolTip": "Trash_TecMovil\\Models\\Bote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:28:27.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Models\\Usuario.cs",
+              "RelativeToolTip": "Trash_TecMovil\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:37:20.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BoteModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Models\\BoteModel.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\Models\\BoteModel.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\Models\\BoteModel.cs",
+              "RelativeToolTip": "Trash_TecMovil\\Models\\BoteModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:23:43.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EliminarBote.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\EliminarBote.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\EliminarBote.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\EliminarBote.cs",
+              "RelativeToolTip": "Trash_TecMovil\\ViewModels\\EliminarBote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T07:06:21.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OpcionesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\OpcionesViewModel.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\OpcionesViewModel.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\OpcionesViewModel.cs",
+              "RelativeToolTip": "Trash_TecMovil\\ViewModels\\OpcionesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T05:41:21.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\MainPage.xaml",
+              "RelativeToolTip": "Trash_TecMovil\\View\\MainPage.xaml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwBoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T06:24:03.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\App.xaml",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\App.xaml",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\App.xaml",
+              "RelativeToolTip": "Trash_TecMovil\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T06:57:20.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Principal.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\Principal.xaml",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Principal.xaml",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\Principal.xaml",
+              "RelativeToolTip": "Trash_TecMovil\\View\\Principal.xaml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAC8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-01T00:10:03.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\AppShell.xaml",
+              "RelativeToolTip": "Trash_TecMovil\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T23:27:26.322Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "Opciones.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Opciones.cs",
-              "RelativeDocumentMoniker": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Opciones.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Opciones.cs",
-              "RelativeToolTip": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Opciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AgregarBotePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\AgregarBotePage.xaml.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\AgregarBotePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\AgregarBotePage.xaml.cs",
+              "RelativeToolTip": "Trash_TecMovil\\View\\AgregarBotePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:20:56.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T06:23:50.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Xamarin.Android.Common.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
+              "ViewState": "AgIAAAcKAAAAAAAAAAAcwB0KAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-01T00:12:55.528Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "EliminarBote.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\EliminarBote.cs",
-              "RelativeDocumentMoniker": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\EliminarBote.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\EliminarBote.cs",
-              "RelativeToolTip": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\EliminarBote.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EditNameViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\EditNameViewModel.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\EditNameViewModel.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\EditNameViewModel.cs",
+              "RelativeToolTip": "Trash_TecMovil\\ViewModels\\EditNameViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:20:56.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T06:47:32.228Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "CdsModel.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\CdsModel.cs",
-              "RelativeDocumentMoniker": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\CdsModel.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\CdsModel.cs",
-              "RelativeToolTip": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\CdsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:20:56.487Z",
-              "EditorCaption": ""
+              "Title": "Xamarin.Android.Resource.Designer.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwEAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-31T07:13:38.387Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "Buscarbote.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Buscarbote.cs",
-              "RelativeDocumentMoniker": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Buscarbote.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Buscarbote.cs",
-              "RelativeToolTip": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Buscarbote.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:20:56.335Z",
-              "EditorCaption": ""
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\ReadMe.txt",
+              "RelativeDocumentMoniker": "..\\..\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\ReadMe.txt",
+              "RelativeToolTip": "..\\..\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-31T07:03:49.202Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "BoteModel.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\BoteModel.cs",
-              "RelativeDocumentMoniker": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\BoteModel.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\BoteModel.cs",
-              "RelativeToolTip": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\BoteModel.cs",
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\7.0.0\\ReadMe.txt",
+              "RelativeDocumentMoniker": "..\\..\\.nuget\\packages\\communitytoolkit.maui\\7.0.0\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\7.0.0\\ReadMe.txt",
+              "RelativeToolTip": "..\\..\\.nuget\\packages\\communitytoolkit.maui\\7.0.0\\ReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:20:56.155Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-31T07:02:59.846Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "Bote.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Bote.cs",
-              "RelativeDocumentMoniker": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Bote.cs",
-              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Bote.cs",
-              "RelativeToolTip": "..\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Bote.cs",
+              "Title": "AgregarBoteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\AgregarBoteViewModel.cs",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\AgregarBoteViewModel.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\ViewModels\\AgregarBoteViewModel.cs",
+              "RelativeToolTip": "Trash_TecMovil\\ViewModels\\AgregarBoteViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:20:55.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T06:47:32.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
+              "RelativeDocumentMoniker": "..\\..\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
+              "RelativeToolTip": "..\\..\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-31T06:41:52.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\8.0.0\\ReadMe.txt",
+              "RelativeDocumentMoniker": "..\\..\\.nuget\\packages\\communitytoolkit.maui\\8.0.0\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\communitytoolkit.maui\\8.0.0\\ReadMe.txt",
+              "RelativeToolTip": "..\\..\\.nuget\\packages\\communitytoolkit.maui\\8.0.0\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-31T06:36:35.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Opciones.xaml",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\Opciones.xaml",
+              "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Opciones.xaml",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\Downloads\\MovilTT\\Trash_TecMovil\\View\\Opciones.xaml",
+              "RelativeToolTip": "Trash_TecMovil\\View\\Opciones.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-31T06:24:07.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Microsoft.Maui.Core.After.targets",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\microsoft.maui.core\\9.0.50\\buildTransitive\\Microsoft.Maui.Core.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\.nuget\\packages\\microsoft.maui.core\\9.0.50\\buildTransitive\\Microsoft.Maui.Core.After.targets",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\.nuget\\packages\\microsoft.maui.core\\9.0.50\\buildTransitive\\Microsoft.Maui.Core.After.targets",
+              "RelativeToolTip": "..\\..\\.nuget\\packages\\microsoft.maui.core\\9.0.50\\buildTransitive\\Microsoft.Maui.Core.After.targets",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-31T06:21:55.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RecuperarContrasena.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\RecuperarContrasena.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\RecuperarContrasena.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\RecuperarContrasena.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\RecuperarContrasena.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:20:56.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Opciones.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Opciones.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Opciones.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Opciones.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Opciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:20:56.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EliminarBote.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\EliminarBote.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\EliminarBote.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\EliminarBote.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\EliminarBote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:20:56.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CdsModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\CdsModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\CdsModel.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\CdsModel.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\CdsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:20:56.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Buscarbote.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Buscarbote.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Buscarbote.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Buscarbote.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Buscarbote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:20:56.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BoteModel.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\BoteModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\BoteModel.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\BoteModel.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\BoteModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:20:56.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Bote.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Bote.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Bote.cs",
+              "ToolTip": "C:\\Users\\Carlos Melendrez\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Bote.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\Trash-TecMovil22\\Trash-TecMovil\\Models\\Bote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:20:55.708Z"
             }
           ]
         }

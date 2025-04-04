@@ -12,4 +12,8 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
+    <Shell.ToolbarItems>
+        <ToolbarItem x:Name="UserToolbar" Text="Usuario" IconImageSource="user_icon.png" />
+    </Shell.ToolbarItems>
+
 </Shell>

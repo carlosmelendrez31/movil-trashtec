@@ -16,20 +16,20 @@ public class RegistroViewModel : INotifyPropertyChanged
 
     public string Nombre
     {
-        get => _usuario.NombreUsuario;
+        get => _usuario.nombreusuario;
         set
         {
-            _usuario.NombreUsuario = value;
+            _usuario.nombreusuario = value;
             OnPropertyChanged();
         }
     }
 
     public string Email
     {
-        get => _usuario.Email;
+        get => _usuario.email;
         set
         {
-            _usuario.Email = value;
+            _usuario.email = value;
             OnPropertyChanged();
             ValidateEmail();
         }
@@ -37,10 +37,10 @@ public class RegistroViewModel : INotifyPropertyChanged
 
     public string Password
     {
-        get => _usuario.Contrasena;
+        get => _usuario.contrasena;
         set
         {
-            _usuario.Contrasena = value;
+            _usuario.contrasena = value;
             OnPropertyChanged();
             ValidatePassword();
         }

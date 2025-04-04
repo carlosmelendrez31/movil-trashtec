@@ -15,7 +15,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Trash_TecMovil
-build_property.ProjectDir = C:\Users\Carlos Melendrez\source\repos\Trash_TecMovil\Trash_TecMovil\
+build_property.ProjectDir = C:\Users\Carlos Melendrez\Downloads\MovilTT\Trash_TecMovil\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotExportsEnabled = 
@@ -27,67 +27,67 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Carlos Melendrez/source/repos/Trash_TecMovil/Trash_TecMovil/App.xaml]
+[C:/Users/Carlos Melendrez/Downloads/MovilTT/Trash_TecMovil/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trash_TecMovil.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Carlos Melendrez/source/repos/Trash_TecMovil/Trash_TecMovil/AppShell.xaml]
+[C:/Users/Carlos Melendrez/Downloads/MovilTT/Trash_TecMovil/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trash_TecMovil.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Carlos Melendrez/source/repos/Trash_TecMovil/Trash_TecMovil/Resources/Styles/Colors.xaml]
+[C:/Users/Carlos Melendrez/Downloads/MovilTT/Trash_TecMovil/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trash_TecMovil.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Carlos Melendrez/source/repos/Trash_TecMovil/Trash_TecMovil/Resources/Styles/Styles.xaml]
+[C:/Users/Carlos Melendrez/Downloads/MovilTT/Trash_TecMovil/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trash_TecMovil.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Carlos Melendrez/source/repos/Trash_TecMovil/Trash_TecMovil/View/AgregarBotePage.xaml]
+[C:/Users/Carlos Melendrez/Downloads/MovilTT/Trash_TecMovil/View/AgregarBotePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trash_TecMovil.View.AgregarBotePage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\AgregarBotePage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AgregarBotePage.xaml
 
-[C:/Users/Carlos Melendrez/source/repos/Trash_TecMovil/Trash_TecMovil/View/EditarBotePage.xaml]
+[C:/Users/Carlos Melendrez/Downloads/MovilTT/Trash_TecMovil/View/EditarBotePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trash_TecMovil.View.EditarBotePage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\EditarBotePage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\EditarBotePage.xaml
 
-[C:/Users/Carlos Melendrez/source/repos/Trash_TecMovil/Trash_TecMovil/View/EliminarBOte.xaml]
+[C:/Users/Carlos Melendrez/Downloads/MovilTT/Trash_TecMovil/View/EliminarBOte.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trash_TecMovil.View.EliminarBOte.xaml
 build_metadata.AdditionalFiles.TargetPath = View\EliminarBOte.xaml
 build_metadata.AdditionalFiles.RelativePath = View\EliminarBOte.xaml
 
-[C:/Users/Carlos Melendrez/source/repos/Trash_TecMovil/Trash_TecMovil/View/Login.xaml]
+[C:/Users/Carlos Melendrez/Downloads/MovilTT/Trash_TecMovil/View/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trash_TecMovil.View.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Login.xaml
 
-[C:/Users/Carlos Melendrez/source/repos/Trash_TecMovil/Trash_TecMovil/View/MainPage.xaml]
+[C:/Users/Carlos Melendrez/Downloads/MovilTT/Trash_TecMovil/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trash_TecMovil.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
 
-[C:/Users/Carlos Melendrez/source/repos/Trash_TecMovil/Trash_TecMovil/View/Opciones.xaml]
+[C:/Users/Carlos Melendrez/Downloads/MovilTT/Trash_TecMovil/View/Opciones.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trash_TecMovil.View.Opciones.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Opciones.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Opciones.xaml
 
-[C:/Users/Carlos Melendrez/source/repos/Trash_TecMovil/Trash_TecMovil/View/Principal.xaml]
+[C:/Users/Carlos Melendrez/Downloads/MovilTT/Trash_TecMovil/View/Principal.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Trash_TecMovil.View.Principal.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Principal.xaml

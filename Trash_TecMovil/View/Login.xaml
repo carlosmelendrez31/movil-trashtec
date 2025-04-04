@@ -25,10 +25,7 @@
        BorderColor="#D1D5DB"
        Padding="5"
        HeightRequest="50">
-            <Entry Placeholder="example@email.com"
-           TextColor="Black"
-           Keyboard="Email"
-           Text="{Binding Usuario.Email}" />
+            <Entry x:Name="EmailEntry" Placeholder="Correo electrónico" Keyboard="Email" />
         </Frame>
 
         <Label Text="Password"
@@ -41,12 +38,7 @@
        HeightRequest="50"
        Margin="0,0,0,20">
             <HorizontalStackLayout Spacing="70">
-                <Entry Placeholder="********"
-               TextColor="Black"
-               IsPassword="True"
-               HorizontalOptions="FillAndExpand"
-               Margin="7,0"
-               Text="{Binding Usuario.Password}" />
+                <Entry x:Name="PasswordEntry" Placeholder="Contraseña" IsPassword="True" />
             </HorizontalStackLayout>
         </Frame>
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Trash_TecMovil")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+88263f35068ac05de22c6e53212ae3498a8ed387")]
 [assembly: System.Reflection.AssemblyProductAttribute("Trash_TecMovil")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Trash_TecMovil")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,17 +14,23 @@ namespace Trash_TecMovil.Services
     {
         public class ApiService
         {
-            private readonly HttpClient _httpClient;
-
-            public ApiService()
+            public async Task<bool> AgregarBoteAsync(BoteModel bote)
             {
-                _httpClient = new HttpClient { BaseAddress = new Uri("https://tu-api-supabase.com/") };
-            }
+                try
+                {
+                    var json = JsonSerializer.Serialize(bote);
+                    var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-            public async Task<bool> RegistrarBoteAsync(BoteModel bote)
-            {
-                var response = await _httpClient.PostAsJsonAsync("botes", bote);
-                return response.IsSuccessStatusCode;
+                    using var client = new HttpClient();
+                    var response = await client.PostAsync("http://192.168.1.22:5000/api/Dispositivos/agregar", content);
+
+                    return response.IsSuccessStatusCode;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"❌ Error al enviar bote: {ex.Message}");
+                    return false;
+                }
             }
         }
     }
