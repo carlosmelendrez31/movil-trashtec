@@ -1,15 +1,37 @@
+using System.ComponentModel;
 using System.Text.Json.Serialization;
 
 namespace Trash_TecMovil.Models;
 
 public class Usuario
 {
-    [JsonPropertyName("nombreusuario")]
-    public string nombreusuario { get; set; }
+    private string _email;
+    private string _contrasena;
 
-    [JsonPropertyName("email")]
-    public string email { get; set; }
+    public string nombreusuario;
+    public string email
+    {
+        get => _email;
+        set
+        {
+            if (_email == value) return;
+            _email = value;
+            OnPropertyChanged(nameof(Email));
+        }
+    }
 
-    [JsonPropertyName("contrasena")]
-    public string contrasena { get; set; }
+    public string contrasena
+    {
+        get => _contrasena;
+        set
+        {
+            if (_contrasena == value) return;
+            _contrasena = value;
+            OnPropertyChanged(nameof(contrasena));
+        }
+    }
+
+    public event PropertyChangedEventHandler PropertyChanged;
+    protected void OnPropertyChanged(string propertyName) =>
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 }

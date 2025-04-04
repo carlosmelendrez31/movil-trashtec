@@ -11,6 +11,7 @@ public partial class Login : ContentPage
     {
         InitializeComponent();
         // Asigna el ViewModel al BindingContext
+        
         BindingContext = new LoginViewModel(new HttpClient());
         usuariologin = new Usuario(); // Asegúrate de que el objeto Usuario esté inicializado
     }
