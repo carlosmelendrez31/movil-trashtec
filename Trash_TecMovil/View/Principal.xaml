@@ -3,46 +3,43 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trash_TecMovil.View.Principal"
              Title="Principal">
-    <VerticalStackLayout Padding="20">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="25">
 
-        <!-- Botón para agregar un bote -->
-        <Button Text="Añadir Bote"
-                Command="{Binding AgregarBoteCommand}"
-                BackgroundColor="GreenYellow"
-                TextColor="Black"
-                FontSize="18"
-                CornerRadius="10"
-                WidthRequest="180"
-                HorizontalOptions="Center"
-                Padding="10"/>
+            <!-- Título -->
+            <Label Text="Agregar Bote" 
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
 
-        <!-- Lista de botes con semáforo de colores -->
-        <CollectionView ItemsSource="{Binding Botes}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Frame Padding="10" Margin="10">
-                        <Frame.Triggers>
-                            <!-- Definir colores según el nivel de llenado -->
-                            <DataTrigger TargetType="Frame" Binding="{Binding Llenado}" Value="50">
-                                <Setter Property="BackgroundColor" Value="Green"/>
-                            </DataTrigger>
-                            <DataTrigger TargetType="Frame" Binding="{Binding Llenado}" Value="80">
-                                <Setter Property="BackgroundColor" Value="Yellow"/>
-                            </DataTrigger>
-                            <DataTrigger TargetType="Frame" Binding="{Binding Llenado}" Value="100">
-                                <Setter Property="BackgroundColor" Value="Red"/>
-                            </DataTrigger>
-                        </Frame.Triggers>
+            <!-- Botón para agregar nombre y tipo del bote -->
+            <Button Text="Agregar Bote"
+                    Clicked="Button_Clicked"
+                    BackgroundColor="#6200EE"
+                    TextColor="White"/>
 
-                        <VerticalStackLayout>
-                            <Label Text="{Binding Nombre}" FontSize="18" TextColor="Black"/>
-                            <Label Text="{Binding Tipo}" FontSize="16" TextColor="Gray"/>
-                            <Label Text="{Binding Llenado}" FontSize="16" TextColor="Black"/>
-                        </VerticalStackLayout>
-                    </Frame>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+            <!-- Botón para obtener llenado -->
+            <Button Text="Obtener Llenado"
+                    Clicked="ObtenerLlenado_Clicked"
+                    BackgroundColor="#03DAC5"
+                    TextColor="Black"/>
 
-    </VerticalStackLayout>
+            <!-- Etiqueta del porcentaje -->
+            <Label x:Name="lblPorcentaje"
+                   Text="--%"
+                   FontSize="48"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <!-- Semáforo visual -->
+            <BoxView x:Name="semaforo"
+                     HeightRequest="150"
+                     WidthRequest="150"
+                     CornerRadius="75"
+                     Color="Gray"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

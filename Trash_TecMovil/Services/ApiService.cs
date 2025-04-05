@@ -22,7 +22,7 @@ namespace Trash_TecMovil.Services
                     var content = new StringContent(json, Encoding.UTF8, "application/json");
 
                     using var client = new HttpClient();
-                    var response = await client.PostAsync("http://192.168.1.22:5000/api/Dispositivos/agregar", content);
+                    var response = await client.PostAsync("https://p0tcljpd-7196.usw3.devtunnels.ms/api/Dispositivos/agregar", content);
 
                     return response.IsSuccessStatusCode;
                 }

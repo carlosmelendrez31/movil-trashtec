@@ -27,7 +27,7 @@
                HeightRequest="50">
             <Entry Placeholder="Correo electrónico"
                    Keyboard="Email"
-                   Text="{Binding Usuario.Email, Mode=TwoWay}" />
+                   Text="{Binding Usuario.email, Mode=TwoWay}" />
         </Frame>
 
         <Label Text="Password"
@@ -41,7 +41,7 @@
                Margin="0,0,0,20">
             <HorizontalStackLayout Spacing="70">
                 <Entry Placeholder="Contraseña" IsPassword="True"
-                       Text="{Binding Usuario.Contrasena, Mode=TwoWay}" />
+                       Text="{Binding Usuario.contrasena, Mode=TwoWay}" />
             </HorizontalStackLayout>
         </Frame>
 
@@ -51,6 +51,7 @@
                 HeightRequest="50"
                 CornerRadius="10"
                 FontAttributes="Bold"
+                Clicked="Button_Clicked_1"
                 Command="{Binding EntrarCommand}" />
 
         <HorizontalStackLayout HorizontalOptions="Center">

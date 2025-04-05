@@ -4,16 +4,36 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Trash_TecMovil"
-    Shell.FlyoutBehavior="Disabled"
+    xmlns:pages="clr-namespace:Trash_TecMovil.View;assembly=Trash_TecMovil"
+    Shell.FlyoutBehavior="Flyout" 
+       FlyoutIsPresented="False"
+       FlyoutBackgroundColor="#EEE8F4"
     Title="Trash_TecMovil">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <Shell.FlyoutHeader>
+        <Grid BackgroundColor="#EEE8F4" Padding="20">
+            <VerticalStackLayout>
+                <Image Source="perfil.png" HeightRequest="60" WidthRequest="60" HorizontalOptions="Start" />
+                <Label x:Name="NombreUsuarioLabel"
+                       Text="Cargando usuario..."
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="#6A1B9A"
+                       Margin="0,10,0,0" />
+            </VerticalStackLayout>
+        </Grid>
+    </Shell.FlyoutHeader>
 
-    <Shell.ToolbarItems>
-        <ToolbarItem x:Name="UserToolbar" Text="Usuario" IconImageSource="user_icon.png" />
-    </Shell.ToolbarItems>
+    <!-- 📄 Navegación -->
+    <FlyoutItem Title="Principal" Route="principal" Icon="home.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Principal}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Perfil" Route="perfil" Icon="user.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:Perfil}" />
+    </FlyoutItem>
+
+    <MenuItem Text="Cerrar sesión"
+              IconImageSource="logout.png"
+              Clicked="MenuItem_Clicked_1" />
 
 </Shell>

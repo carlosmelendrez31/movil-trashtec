@@ -31,7 +31,7 @@ public class LoginViewModel
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
             // Petición al servidor
-            HttpResponseMessage response = await _httpClient.PostAsync("https://gn5n9hbf-7196.usw3.devtunnels.ms/api/auth/login", content);
+            HttpResponseMessage response = await _httpClient.PostAsync("https://p0tcljpd-7196.usw3.devtunnels.ms/api/auth/login", content);
 
             // Log del código de estado
             Console.WriteLine($"📥 Código de estado: {response.StatusCode}");
@@ -44,13 +44,13 @@ public class LoginViewModel
                 // Deserialización de la respuesta
                 var loginResponse = JsonSerializer.Deserialize<LoginResponse>(responseBody);
 
-                if (loginResponse != null && !string.IsNullOrEmpty(loginResponse.Token))
+                if (loginResponse != null && !string.IsNullOrEmpty(loginResponse.token))
                 {
-                    Console.WriteLine($"🔑 Token recibido: {loginResponse.Token}");
+                    Console.WriteLine($"🔑 Token recibido: {loginResponse.token}");
 
                     // Almacenar token de manera segura
-                    await SecureStorage.SetAsync("AuthToken", loginResponse.Token);
-                    await SecureStorage.SetAsync("nombreusuario", ObtenerNombreUsuarioDesdeToken(loginResponse.Token));
+                    await SecureStorage.SetAsync("AuthToken", loginResponse.token);
+                    await SecureStorage.SetAsync("nombreusuario", ObtenerNombreUsuarioDesdeToken(loginResponse.token));
                     return true;
                 }
                 else
@@ -76,23 +76,49 @@ public class LoginViewModel
         return false;
     }
 
-    private string ObtenerNombreUsuarioDesdeToken(string token)
+
+    public string ObtenerNombreUsuarioDesdeToken(string token)
     {
         try
         {
-            var handler = new JwtSecurityTokenHandler();
-            var jwtToken = handler.ReadJwtToken(token);
-            return jwtToken.Claims.FirstOrDefault(c => c.Type == "nombreusuario")?.Value ?? "Usuario";
+            // El JWT tiene 3 partes separadas por ".", nos interesa el segundo: el payload
+            var partes = token.Split('.');
+            if (partes.Length < 2)
+                return string.Empty;
+
+            var payload = partes[1];
+
+            // Agregar padding si es necesario (Base64 debe tener longitud múltiplo de 4)
+            switch (payload.Length % 4)
+            {
+                case 2: payload += "=="; break;
+                case 3: payload += "="; break;
+            }
+
+            var bytes = Convert.FromBase64String(payload);
+            var json = Encoding.UTF8.GetString(bytes);
+
+            var payloadData = JsonSerializer.Deserialize<Dictionary<string, object>>(json);
+
+            // Intenta obtener el nombre del claim
+            if (payloadData != null &&
+                payloadData.TryGetValue("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name", out object nombre))
+            {
+                return nombre.ToString();
+            }
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"❌ Error al procesar el token JWT: {ex.Message}");
-            return "Usuario";
+            Console.WriteLine($"❌ Error al obtener el nombre desde el token: {ex.Message}");
         }
+
+        return string.Empty;
+        
     }
 }
 
+
 public class LoginResponse
 {
-    public string Token { get; set; }
+    public string token { get; set; }
 }

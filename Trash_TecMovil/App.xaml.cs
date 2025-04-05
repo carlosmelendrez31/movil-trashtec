@@ -8,7 +8,9 @@ namespace Trash_TecMovil
         {
             InitializeComponent();
 
-            MainPage = new Login();
+            MainPage = new NavigationPage(new Login());
+
+
 
         }
     }

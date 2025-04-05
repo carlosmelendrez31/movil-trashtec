@@ -15,8 +15,12 @@ public partial class Login : ContentPage
         BindingContext = new LoginViewModel(new HttpClient());
         usuariologin = new Usuario(); // Asegúrate de que el objeto Usuario esté inicializado
     }
-    private async void Button_Clicked(object sender, EventArgs e)
+    
+    
+
+    private async void Button_Clicked_1(object sender, EventArgs e)
     {
+
         Console.WriteLine("➡ Botón de inicio de sesión presionado.");
 
         var viewModel = (LoginViewModel)BindingContext;
@@ -35,15 +39,19 @@ public partial class Login : ContentPage
 
         if (loginExitoso)
         {
-            Console.WriteLine("✅ Inicio de sesión exitoso.");
-            await DisplayAlert("Éxito", "Inicio de sesión exitoso.", "OK");
-            await Navigation.PushAsync(new Principal());
+            Application.Current.MainPage = new AppShell();
+
+            // Espera un poquitito pa’ que se monte el Shell
+            await Task.Delay(100);
+
+            // Y ahora sí navegas
+            await Shell.Current.GoToAsync("//principal");
         }
         else
         {
-            Console.WriteLine("❌ Inicio de sesión fallido.");
             await DisplayAlert("Error", "Correo o contraseña incorrectos.", "OK");
         }
     }
 
 }
+
