@@ -3,43 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Trash_TecMovil.View.Principal"
              Title="Principal">
-    <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="25">
+    <StackLayout Padding="20" Spacing="20">
 
-            <!-- Título -->
-            <Label Text="Agregar Bote" 
-                   FontSize="32"
-                   FontAttributes="Bold"
-                   HorizontalOptions="Center" />
+        <Entry x:Name="NombreBote" Placeholder="Nombre del Bote" />
+        <Entry x:Name="TipoBote" Placeholder="Tipo del Bote" />
 
-            <!-- Botón para agregar nombre y tipo del bote -->
-            <Button Text="Agregar Bote"
-                    Clicked="Button_Clicked"
-                    BackgroundColor="#6200EE"
-                    TextColor="White"/>
+        <Button Text="Agregar Bote" Clicked="OnAgregarBoteClicked" />
 
-            <!-- Botón para obtener llenado -->
-            <Button Text="Obtener Llenado"
-                    Clicked="ObtenerLlenado_Clicked"
-                    BackgroundColor="#03DAC5"
-                    TextColor="Black"/>
+        <Label x:Name="NombreLabel" FontSize="18" TextColor="Black" IsVisible="False" />
 
-            <!-- Etiqueta del porcentaje -->
-            <Label x:Name="lblPorcentaje"
-                   Text="--%"
-                   FontSize="48"
-                   FontAttributes="Bold"
-                   HorizontalOptions="Center"/>
+        <Label x:Name="LlenadoLabel" Text="Llenado: 0%" FontSize="24" HorizontalOptions="Center" IsVisible="False" />
 
-            <!-- Semáforo visual -->
-            <BoxView x:Name="semaforo"
-                     HeightRequest="150"
-                     WidthRequest="150"
-                     CornerRadius="75"
-                     Color="Gray"
-                     HorizontalOptions="Center"
-                     VerticalOptions="Center"/>
-
-        </VerticalStackLayout>
-    </ScrollView>
+        <BoxView x:Name="SemaforoBox"
+                 WidthRequest="100"
+                 HeightRequest="100"
+                 CornerRadius="50"
+                 Color="Gray"
+                 HorizontalOptions="Center"
+                 IsVisible="False" />
+    </StackLayout>
 </ContentPage>

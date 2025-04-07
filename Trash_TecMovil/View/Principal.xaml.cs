@@ -8,82 +8,96 @@ namespace Trash_TecMovil.View;
 public partial class Principal : ContentPage
 {
 
-    private const string ApiUrl = "https://p0tcljpd-7196.usw3.devtunnels.ms/api/Dispositivos/agregar"; // 👉 cambia TU_API por la URL de tu API
-    private const string Esp32Ip = "http://192.168.1.100/obtenerllenado"; // 👉 IP fija del ESP32
-   
+    private const string ApiUrl = "https://p0tcljpd-7196.usw3.devtunnels.ms/api/Dispositivos/agregar"; 
+    private const string Esp32Ip = "http://192.168.1.100/obtenerllenado"; 
+    private int _llenado;
+    private bool _boteAgregado;
 
+    [Obsolete]
     public Principal()
 	{
 		InitializeComponent();
-       
+        _llenado = 0;
+        _boteAgregado = false;
 
+        // Llamada periódica para actualizar el llenado
+        Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+        {
+            if (_boteAgregado)
+            {
+                GetLlenadoAsync();
+            }
+            return true; // Continuar con el temporizador
+        });
+
+
+    }
+    private async Task AgregarBoteAsync()
+    {
+        if (string.IsNullOrWhiteSpace(NombreBote.Text) || string.IsNullOrWhiteSpace(TipoBote.Text))
+            return;
+
+        var json = $"{{ \"nombre\": \"{NombreBote.Text}\", \"tipo\": \"{TipoBote.Text}\" }}";
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+        using var client = new HttpClient();
+        var response = await client.PostAsync(ApiUrl, content);
+
+        if (response.IsSuccessStatusCode)
+        {
+            _boteAgregado = true;
+
+            NombreLabel.Text = $"Bote: {NombreBote.Text}";
+            NombreLabel.IsVisible = true;
+            LlenadoLabel.IsVisible = true;
+            SemaforoBox.IsVisible = true;
+
+            NombreBote.IsVisible = false;
+            TipoBote.IsVisible = false;
+        }
+    }
+
+    // Método para obtener el llenado desde el ESP32
+    private async Task GetLlenadoAsync()
+    {
+        try
+        {
+            using var client = new HttpClient();
+            var resultado = await client.GetStringAsync(Esp32Ip);
+
+            if (int.TryParse(resultado, out int porcentaje))
+            {
+                LlenadoLabel.Text = $"Llenado: {porcentaje}%";
+
+                // Cambiar el color del semáforo según porcentaje
+                if (porcentaje >= 80)
+                    SemaforoBox.Color = Colors.Red;
+                else if (porcentaje >= 40)
+                    SemaforoBox.Color = Colors.Orange;
+                else
+                    SemaforoBox.Color = Colors.Green;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"❌ Error al obtener llenado: {ex.Message}");
+        }
     }
     
 
-   
+    // Método vinculado al botón para agregar el bote
+    private async void OnAgregarBoteClicked(object sender, EventArgs e)
+    {
+        await AgregarBoteAsync();
+    }
 
     private async void Button_Clicked(object sender, EventArgs e)
     {
-        var nombre = await DisplayPromptAsync("Nombre", "Ingresa el nombre del bote:");
-        var tipo = await DisplayPromptAsync("Tipo", "Ingresa el tipo del bote:");
 
-        if (string.IsNullOrWhiteSpace(nombre) || string.IsNullOrWhiteSpace(tipo))
-        {
-            await DisplayAlert("Error", "Nombre y tipo son obligatorios", "OK");
-            return;
-        }
-
-        var nuevoBote = new
-        {
-            nombre = nombre,
-            tipo = tipo
-        };
-
-        var json = JsonSerializer.Serialize(nuevoBote);
-        var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-        try
-        {
-            using var client = new HttpClient();
-            var response = await client.PostAsync(ApiUrl, content);
-
-            if (response.IsSuccessStatusCode)
-                await DisplayAlert("Éxito", "Bote agregado correctamente", "OK");
-            else
-                await DisplayAlert("Error", "No se pudo agregar el bote", "OK");
-        }
-        catch (Exception ex)
-        {
-            await DisplayAlert("Error", $"Fallo al conectar con la API: {ex.Message}", "OK");
-        }
-
-    }
-    private async void ObtenerLlenado_Clicked(object sender, EventArgs e)
-    {
-        try
-        {
-            using var client = new HttpClient();
-            var response = await client.GetStringAsync(Esp32Ip);
-
-            if (int.TryParse(response, out int porcentaje))
-            {
-                lblPorcentaje.Text = $"{porcentaje}%";
-
-                if (porcentaje < 30)
-                    semaforo.Color = Colors.Green;
-                else if (porcentaje < 70)
-                    semaforo.Color = Colors.Gold;
-                else
-                    semaforo.Color = Colors.Red;
-            }
-            else
-            {
-                await DisplayAlert("Error", "Respuesta inválida del ESP32", "OK");
-            }
-        }
-        catch (Exception ex)
-        {
-            await DisplayAlert("Error", $"No se pudo obtener el llenado: {ex.Message}", "OK");
-        }
+        await AgregarBoteAsync();
     }
 }
+
+
+
+

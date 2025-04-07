@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\principal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\manue\\desktop\\dale\\movil-trashtec\\trash_tecmovil\\view\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\manue\\desktop\\dale\\movil-trashtec\\trash_tecmovil\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\manue\\desktop\\dale\\movil-trashtec\\trash_tecmovil\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\manue\\desktop\\dale\\movil-trashtec\\trash_tecmovil\\view\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|solutionrelative:trash_tecmovil\\view\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C25B6562-F690-4135-BFBB-2CAC6ADBA76D}|Trash_TecMovil\\Trash_TecMovil.csproj|c:\\users\\manue\\desktop\\dale\\movil-trashtec\\trash_tecmovil\\viewmodels\\principalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -234,9 +234,9 @@
               "Title": "Principal.xaml.cs",
               "DocumentMoniker": "C:\\Users\\manue\\Desktop\\dale\\movil-trashtec\\Trash_TecMovil\\View\\Principal.xaml.cs",
               "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Principal.xaml.cs",
-              "ToolTip": "C:\\Users\\manue\\Desktop\\dale\\movil-trashtec\\Trash_TecMovil\\View\\Principal.xaml.cs",
-              "RelativeToolTip": "Trash_TecMovil\\View\\Principal.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAqwCQAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\manue\\Desktop\\dale\\movil-trashtec\\Trash_TecMovil\\View\\Principal.xaml.cs*",
+              "RelativeToolTip": "Trash_TecMovil\\View\\Principal.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T03:23:50.519Z",
               "EditorCaption": ""
@@ -301,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\manue\\Desktop\\dale\\movil-trashtec\\Trash_TecMovil\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Trash_TecMovil\\ViewModels\\LoginViewModel.cs",
@@ -361,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\manue\\Desktop\\dale\\movil-trashtec\\Trash_TecMovil\\View\\Login.xaml.cs",
               "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Login.xaml.cs",
@@ -373,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Login.xaml",
               "DocumentMoniker": "C:\\Users\\manue\\Desktop\\dale\\movil-trashtec\\Trash_TecMovil\\View\\Login.xaml",
               "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Login.xaml",
@@ -589,15 +589,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Principal.xaml",
               "DocumentMoniker": "C:\\Users\\manue\\Desktop\\dale\\movil-trashtec\\Trash_TecMovil\\View\\Principal.xaml",
               "RelativeDocumentMoniker": "Trash_TecMovil\\View\\Principal.xaml",
               "ToolTip": "C:\\Users\\manue\\Desktop\\dale\\movil-trashtec\\Trash_TecMovil\\View\\Principal.xaml",
               "RelativeToolTip": "Trash_TecMovil\\View\\Principal.xaml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAACAdxNFmqkiwBcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-01T00:10:03.4Z"
+              "WhenOpened": "2025-04-01T00:10:03.4Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
