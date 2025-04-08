@@ -5,6 +5,13 @@
              Title="Principal">
     <StackLayout Padding="20" Spacing="20">
 
+        <Label x:Name="NombreUsuarioLabel"
+       FontSize="18"
+       FontAttributes="Bold"
+       TextColor="Purple"
+       IsVisible="False"
+       Margin="10"/>
+
         <Entry x:Name="NombreBote" Placeholder="Nombre del Bote" />
         <Entry x:Name="TipoBote" Placeholder="Tipo del Bote" />
 

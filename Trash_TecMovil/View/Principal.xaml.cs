@@ -2,6 +2,7 @@
 using System.Text;
 using Trash_TecMovil.Services.Trash_TecMovil.Services;
 using Trash_TecMovil.Models;
+using System.Net.Http.Headers;
 
 namespace Trash_TecMovil.View;
 
@@ -9,7 +10,7 @@ public partial class Principal : ContentPage
 {
 
     private const string ApiUrl = "https://p0tcljpd-7196.usw3.devtunnels.ms/api/Dispositivos/agregar"; 
-    private const string Esp32Ip = "http://192.168.1.100/obtenerllenado"; 
+    private const string Esp32Ip = "http://192.168.100.200/obtenerllenado"; 
     private int _llenado;
     private bool _boteAgregado;
 
@@ -29,9 +30,32 @@ public partial class Principal : ContentPage
             }
             return true; // Continuar con el temporizador
         });
-
+        CargarNombreUsuario();
 
     }
+
+    private string ObtenerNombreDesdeToken(string token)
+    {
+        var handler = new System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler();
+        var jwtToken = handler.ReadJwtToken(token);
+
+        var nombreClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "name");
+        return nombreClaim?.Value ?? "Usuario";
+    }
+
+    private async void CargarNombreUsuario()
+    {
+        var token = await SecureStorage.GetAsync("auth_token");
+
+        if (!string.IsNullOrEmpty(token))
+        {
+            var nombre = ObtenerNombreDesdeToken(token);
+            NombreUsuarioLabel.Text = $"Hola, {nombre} 👋";
+            NombreUsuarioLabel.IsVisible = true;
+        }
+    }
+
+
     private async Task AgregarBoteAsync()
     {
         if (string.IsNullOrWhiteSpace(NombreBote.Text) || string.IsNullOrWhiteSpace(TipoBote.Text))
@@ -41,6 +65,13 @@ public partial class Principal : ContentPage
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
         using var client = new HttpClient();
+
+        // 👉 Obtener el token guardado tras login
+        var token = await SecureStorage.GetAsync("auth_token");
+
+        if (!string.IsNullOrEmpty(token))
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
         var response = await client.PostAsync(ApiUrl, content);
 
         if (response.IsSuccessStatusCode)
@@ -54,6 +85,10 @@ public partial class Principal : ContentPage
 
             NombreBote.IsVisible = false;
             TipoBote.IsVisible = false;
+        }
+        else
+        {
+            await Application.Current.MainPage.DisplayAlert("Error", "No se pudo agregar el bote", "OK");
         }
     }
 
